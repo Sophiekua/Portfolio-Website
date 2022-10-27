@@ -3,13 +3,27 @@
     background-color:aquamarine;
     
 }
+.nav{
+    background-color:lavenderblush;
+    overflow: hidden;
+}
+.nav a{
+    float:left;
+    color:lavender;
+    text-align:center;
+    padding: 15px 15px;
+    text-decoration:none;
+    font-size: 16px;
+}
 h1{
     font-size: 20px;
     position:center;
+    text-align: center;
     font-family:monospace;
 }
 h2{
-    font-size: 10px;
+    font-size: 15px;
     position:center;
+    text-align: center;
     font-family:monospace;
 }
