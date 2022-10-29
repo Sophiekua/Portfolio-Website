@@ -7,25 +7,23 @@
 
     width:100%;
     position:top;
-    background-color:lavenderblush;
+    background-color:rgb(254, 223, 255);
     white-space: nowrap;
     overflow: hidden;
 }
 .navbarContent{
     color:lavender;
     display:inline-block;
-    text-align:center;
-    padding: 15px 15px;
     text-decoration-line:none;
     font-size: 16px;
 }
 .navbarContent a:hover{
     background-color:aliceblue;
-    color:aliceblue;
 }
 .navbarContent a {
     display: block;
     color: white;
+    font-family:monospace;
     text-align: center;
     padding: 14px 16px;
 }
