@@ -20,7 +20,7 @@
 .navbarContent a:hover{
     background-color:aliceblue;
 }
-.navbarContent a {
+.navbarContent a{
     display: block;
     color: white;
     font-family:monospace;
