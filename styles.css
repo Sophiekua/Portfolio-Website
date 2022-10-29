@@ -3,17 +3,28 @@
     background-color:white;
     
 }
-.nav{
+#nav{
+    position:relative;
     background-color:lavenderblush;
     overflow: hidden;
 }
-.nav a{
+.navbarContent{
     float:left;
     color:lavender;
     text-align:center;
     padding: 15px 15px;
     text-decoration:none;
     font-size: 16px;
+}
+.navbarContent a:hover{
+    background-color:aliceblue;
+    color:aliceblue;
+}
+.navbarContent a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
 }
 h1{
     font-size: 20px;
