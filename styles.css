@@ -4,13 +4,14 @@
     
 }
 #nav{
-    position:relative;
+
     background-color:lavenderblush;
     overflow: hidden;
 }
 .navbarContent{
     float:left;
     color:lavender;
+    display:inline-block;
     text-align:center;
     padding: 15px 15px;
     text-decoration:none;
