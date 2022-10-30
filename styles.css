@@ -7,7 +7,7 @@
 
     width:100%;
     position:top;
-    background-color:rgb(254, 223, 255);
+    background-color:rgb(240, 220, 252);
     white-space: nowrap;
     overflow: hidden;
 }
@@ -22,10 +22,13 @@
 }
 .navContent a{
     display: block;
-    color: white;
+    color: rgba(206, 233, 252, 0.952);
     font-family:monospace;
     text-align: center;
     padding: 14px 16px;
+}
+#header{
+    padding:20px 20px;
 }
 h1{
     font-size: 20px;
