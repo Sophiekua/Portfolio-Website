@@ -3,7 +3,7 @@
 }
 body
 {
-    background-color:white;
+    background-color:rgb(221, 199, 230);
     
 }
 #icon{
@@ -16,7 +16,7 @@ body
 
     width:100%;
     position:top;
-    background-color:rgb(240, 220, 252);
+    background-color:rgb(249, 241, 253);
     white-space: nowrap;
     overflow: hidden;
 }
