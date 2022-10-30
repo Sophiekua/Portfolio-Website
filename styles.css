@@ -1,5 +1,5 @@
 ﻿body#opening{
-    background-color:rgb(221, 192, 233)
+    background-color:rgb(202, 181, 211)
 }
 body
 {
@@ -18,22 +18,22 @@ body
 
     width:100%;
     position:top;
-    background-color:rgb(249, 241, 253);
+    background-color:rgb(244, 227, 253);
     white-space: nowrap;
     overflow: hidden;
 }
 .navContent{
-    color:lavender;
+    color:rgb(230, 245, 250);
     display:inline-block;
     text-decoration-line:none;
     font-size: 16px;
 }
 .navContent a:hover{
-    background-color:aliceblue;
+    background-color:rgb(226, 242, 255);
 }
 .navContent a{
     display: block;
-    color: rgba(206, 233, 252, 0.952);
+    color: rgb(226, 242, 255);
     font-family:monospace;
     text-align: center;
     padding: 14px 16px;
