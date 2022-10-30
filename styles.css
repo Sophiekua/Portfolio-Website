@@ -11,16 +11,16 @@
     white-space: nowrap;
     overflow: hidden;
 }
-.navbarContent{
+.navContent{
     color:lavender;
     display:inline-block;
     text-decoration-line:none;
     font-size: 16px;
 }
-.navbarContent a:hover{
+.navContent a:hover{
     background-color:aliceblue;
 }
-.navbarContent a{
+.navContent a{
     display: block;
     color: white;
     font-family:monospace;
