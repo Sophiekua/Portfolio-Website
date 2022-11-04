@@ -1,11 +1,15 @@
 ﻿body#opening{
     background-color:rgb(244, 231, 250)
 }
-body
+body#homeBody
 {
     background-image:url("cherry-blossom-falling.gif");
     position: sticky;
     
+}
+body#contactMe{
+    background-color: rgb(190, 214, 250);
+    opacity: 60%;
 }
 #icon{
     position: center;
