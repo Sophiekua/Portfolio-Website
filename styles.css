@@ -80,3 +80,6 @@ img{
 #bobaCat:hover{
     cursor: url('cursor.cur'),auto;
 }
+#compCat:hover{
+    cursor: url('mouseCur.cur'),auto;
+}
