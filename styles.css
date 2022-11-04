@@ -1,5 +1,5 @@
 ﻿body#opening{
-    background-color:rgb(244, 231, 250)
+    background-color:rgb(255, 255, 255)
 }
 body#homeBody
 {
@@ -79,6 +79,10 @@ img{
 }
 #bobaCat:hover{
     cursor: url('cursor.cur'),auto;
+}
+#compCat{
+    width:100%;
+    height:auto;
 }
 #compCat:hover{
     cursor: url('mouseCur.cur'),auto;
