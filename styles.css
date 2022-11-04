@@ -50,16 +50,22 @@ body
     position: center;
 }
 h1{
+    color: rgb(174, 202, 223);
     font-size: 20px;
     position:center;
     text-align: center;
     font-family:monospace;
 }
 h2{
+    color: rgb(174, 202, 223);
     font-size: 15px;
     position:center;
     text-align: center;
     font-family:monospace;
+}
+p1{
+    color: rgb(174, 202, 223);
+    font-size: 12px;
 }
 img{
     margin: 5px;
