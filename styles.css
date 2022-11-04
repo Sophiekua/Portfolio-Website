@@ -23,7 +23,7 @@ body#contactMe{
 #nav{
     margin-bottom: 5px;
     width:100%;
-    position:top;
+    position:top center;
     background-color:rgb(242, 230, 248);
     opacity: 0.7;
     white-space: nowrap;
@@ -76,4 +76,7 @@ p1{
 }
 img{
     margin: 5px;
+}
+#bobaCat:hover{
+    cursor: url('cursor.cur'),auto;
 }
