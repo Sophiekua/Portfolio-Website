@@ -75,14 +75,22 @@ p1{
     font-size: 12px;
 }
 img{
-    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+#bobaCat{
+    margin-top: 5px;
 }
 #bobaCat:hover{
     cursor: url('cursor.cur'),auto;
 }
 #compCat{
-    width:100%;
-    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
 }
 #compCat:hover{
     cursor: url('mouseCur.cur'),auto;
