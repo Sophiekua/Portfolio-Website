@@ -82,6 +82,7 @@ img{
 }
 #bobaCat{
     margin-top: 5px;
+    position:center;
 }
 #bobaCat:hover{
     cursor: url('cursor.cur'),auto;
