@@ -75,7 +75,7 @@ p1{
     color: rgb(174, 202, 223);
     font-size: 12px;
 }
-img{
+.img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -96,4 +96,22 @@ img{
 }
 #compCat:hover{
     cursor: url('mouseCur.cur'),auto;
+}
+.button{
+    border-radius: 40%;
+    text-align: center;
+    display: inline-block;
+    font-family: monospace;
+}
+#spring{
+    background-color: rgb(255, 228, 233);
+}
+#summer{
+    background-color: rgb(250, 250, 209);
+}
+#autumn{
+    background-color: rgb(253, 227, 177);
+}
+#winter{
+    background-color: aliceblue;
 }
