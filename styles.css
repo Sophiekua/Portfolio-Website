@@ -103,15 +103,15 @@ p1{
     display: inline-block;
     font-family: monospace;
 }
-#spring{
+.spring{
     background-color: rgb(255, 228, 233);
 }
-#summer{
+.summer{
     background-color: rgb(250, 250, 209);
 }
-#autumn{
+.autumn{
     background-color: rgb(253, 227, 177);
 }
-#winter{
+.winter{
     background-color: aliceblue;
 }
