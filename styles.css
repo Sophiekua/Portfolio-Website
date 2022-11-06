@@ -57,6 +57,11 @@ body#contactMe{
     border-width: 5px;
     position: center;
 }
+#seasons{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1{
     color: rgb(174, 202, 223);
     font-size: 20px;
@@ -75,33 +80,37 @@ p1{
     color: rgb(174, 202, 223);
     font-size: 12px;
 }
-.img{
+img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:50%;
+    max-width:100%;
+    max-height:auto;
 }
-#bobaCat{
+.bobaCat{
     margin-top: 5px;
     position:center;
 }
-#bobaCat:hover{
+.bobaCat:hover{
     cursor: url('cursor.cur'),auto;
 }
 #compCat{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
+    display:flex;
+    height:auto;
+    max-width: 100%;
+    position:center;
+    
 }
 #compCat:hover{
     cursor: url('mouseCur.cur'),auto;
 }
-.button{
+button{
+    margin:5px;
+    padding:5px;
     border-radius: 40%;
     text-align: center;
     display: inline-block;
     font-family: monospace;
+    justify-content: center;
+    align-items: center;
 }
 .spring{
     background-color: rgb(255, 228, 233);
