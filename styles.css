@@ -1,5 +1,18 @@
-﻿body#opening{
-    background-color:rgb(255, 255, 255)
+﻿body{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1 ;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+body#opening{
+    background-color:rgb(255, 255, 255);
 }
 body#homeBody
 {
@@ -9,6 +22,14 @@ body#homeBody
 }
 body#contactMe{
     background-image:linear-gradient(to top,rgb(139, 187, 250),transparent);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body#projects{
+
+    background-image:linear-gradient(to top,rgb(255, 147, 183),transparent);
     background-attachment: fixed;
     background-repeat:no-repeat;
     background-size: cover;
@@ -141,4 +162,34 @@ button{
 }
 .winter{
     background-color: aliceblue;
+}
+
+.projectPage{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    text-align: center;
+
+}
+
+#column1{
+    width: 27%;
+    float: left;
+    text-align: center;
+    border-style: dotted ;
+    border-width: 4px;
+    border-color: rgb(247, 219, 255);
+}
+#section1{
+    float: right;
+    width: 70%;
+    text-align: center;
+    
+}
+#section2{
+    width: 70%;
+    float: right;
+    text-align: center;
+    border-top: 3px dashed lightpink;
 }
