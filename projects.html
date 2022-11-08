@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles.css">
-    <script src=" Script1.js"></script>
 
     <title>projects</title>
 </head>
-<body id="projects">
+<body id="projects"></body>
+
     <div id="nav">
         <div class="navContent"><a href="home.html">Home</a></div>
         <div class="navContent"><a href="projects.html">Projects</a></div>
@@ -26,15 +26,46 @@
             <hr>
         </div>
         <div id="section1">
-            <h4>Current Project In the Works</h3>
+            <h4>Current projects In the Works</h3>
             <hr>
             <br>
+
+            <div id="slideContainer">
+
+            <div class="slides fade">
+                <div class="projectText">project 1 </div>
+                <img src="purpleNote.jpg" alt="project name" class="centerImg">
+                <div class="numText"> 1/3 </div> 
+            </div>
+
+            <div class="slides fade">
+                <div class="projectText">project 2 </div>
+                <img src="purpleNote.jpg" alt="project name" class="centerImg">
+                <div class="numText"> 2/3 </div> 
+
+            </div>
+                
+            <div class="slides fade">
+                <div class="projectText">project 3 </div>
+                <img src="purpleNote.jpg" alt="project name" class="centerImg">
+                <div class="numText"> 3/3 </div> 
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </div>
+        <br>
         <div id="section2">
             <h4> Other Projects </h3>
             <hr>
 
         </div>
     </div>
+
+    <script src="Js2.js"></script>
 </body>
 </html>
