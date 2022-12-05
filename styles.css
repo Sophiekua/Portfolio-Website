@@ -199,8 +199,8 @@ button{
 
     margin: auto;
     padding:2px;
-    max-width:75%;
-    height: auto;
+    max-width: 65%;
+    max-height: 50%;
     position: relative;
     background-color: rgba(250, 120, 142, 0.445);
     display: block;
@@ -226,19 +226,20 @@ button{
     margin-top: 5%;
     vertical-align: middle;
     width: 50%;
+    height: 50%;
 }
 .projectText {
     color: #f2f2f2;
-    font-size: 15px;
-    margin:auto;
+    font-size: 16px;
+    margin:1%;
     position: absolute;
     width: 100%;
     text-align: top;
   }
   .numText {
     color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
+    font-size: 16px;
+    margin:1%;
     position: absolute;
     top: 0;
   }
